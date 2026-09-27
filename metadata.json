@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Sourav Kumar Bhowmick | Academic Portal & Research Lab",
+  "description": "Official academic and educational portal of Dr. Sourav Kumar Bhowmick, Assistant Professor of Electronics at Asutosh College, Kolkata. Featuring research in Chaos Theory, CBCS & CCF course materials, laboratory manuals, and University of Calcutta question papers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
