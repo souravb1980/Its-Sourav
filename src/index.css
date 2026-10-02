@@ -25,3 +25,23 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(120, 113, 108, 0.45);
 }
+
+/* Continuous smooth scrolling marquee for Notice ticker */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-notice {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 42s linear infinite;
+}
+
+.animate-marquee-notice:hover {
+  animation-play-state: paused;
+}
