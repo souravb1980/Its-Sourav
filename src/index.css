@@ -39,7 +39,7 @@ html {
 .animate-marquee-notice {
   display: flex;
   width: max-content;
-  animation: marquee-scroll 42s linear infinite;
+  animation: marquee-scroll 80s linear infinite;
 }
 
 .animate-marquee-notice:hover {
