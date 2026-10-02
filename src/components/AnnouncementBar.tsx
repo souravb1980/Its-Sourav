@@ -65,6 +65,7 @@ export const AnnouncementBar: React.FC<AnnouncementBarProps> = ({ onNavigate }) 
           {/* Marquee Container with duplicate track for seamless continuous loop */}
           <div 
             className="animate-marquee-notice flex items-center cursor-default"
+            style={{ animationDuration: '80s' }}
             title="Hover to pause notice"
           >
             {/* First Set */}
